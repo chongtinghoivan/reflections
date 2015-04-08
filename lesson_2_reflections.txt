@@ -9,3 +9,24 @@ Staging area is where the files being stored when they are going to be committed
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 Use "git diff" to check the changes made comparing the staging area with the working directory, and then use "git add" and "git commit -m" to commit the logical change.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Situations like 
+1. developing new features for the existing functional program; 
+2. developing version in another language for a website;
+
+Using branches could allow the developer realising new ideas without the need of worrying affecting the real official version of the product.
+
+5) How do the diagrams help you visualize the branch structure?
+Diagrams could help make things clear and show every branch created before.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together allow combining the work done by two separate individuals such that new functions could be added to the original branch. Representing it in the diagram could allow clearly presentation of any commits made along the process and timeline of coding.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros:
+Save lots of work checking where the changes between versions are.
+Git would locate the difference via conflicts management.
